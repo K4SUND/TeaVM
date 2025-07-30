@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Main page</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <script type="text/javascript" charset="utf-8" src="teavm/classes.wasm-runtime.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            color: #666;
+        }
+    </style>
+
+    <script>
+        async function main() {
+
+          console.log("Starting TeaVM initialization...");
+
+          try{
+              document.body.innerHTML = '<div class="loading">Loading TeaVM runtime...</div>';
+              let teavm = await TeaVM.wasmGC.load("teavm/classes.wasm", {
+                    stackDeobfuscator: {
+                        // set to true during development phase, as well as `debugInformationGenerated`
+                        // option in pom.xml to get clear stack traces. Don't forget
+                        // to disable for production.
+                        enabled: true
+                    }
+                });
+
+
+            console.log("TeaVM loaded successfully!");
+            document.body.innerHTML = '';
+
+
+            //invokes java main method
+            teavm.exports.main([]);
+
+
+          }catch(error){
+                console.error("Failed to load TeaVM:", error);
+                document.body.innerHTML = `
+                    <div style="padding: 20px; font-family: Arial, sans-serif;">
+                        <h2 style="color: red;">Error Loading Application</h2>
+                        <p>Failed to load TeaVM runtime. Please check:</p>
+                        <ul>
+                            <li>Make sure the WASM files are in the <code>teavm/</code> directory</li>
+                            <li>Check browser console for detailed error messages</li>
+                            <li>Ensure your web server supports WASM files (.wasm MIME type)</li>
+                            <li>Try running with <code>mvn clean compile</code> to regenerate files</li>
+                        </ul>
+                        <p><strong>Error details:</strong> ${error.message}</p>
+                    </div>
+                `;
+          }
+
+        }
+    </script>
+</head>
+<body onload="main()">
+<!-- TODO: add HTML content -->
+</body>
+</html>

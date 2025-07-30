@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c56d71df-1f0c-412c-937c-5965a00b688d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tvmtest/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tvmtest/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated/wasm/teavm/classes.wasm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated/wasm/teavm/classes.wasm-runtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated/wasm/teavm/classes.wasm.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated/wasm/teavm/classes.wasm.teadbg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated/wasm/teavm/src/com/tvmtest/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated/wasm/teavm/src/org/teavm/backend/wasm/runtime/gc/WasmGCSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated/wasm/teavm/src/org/teavm/classlib/java/lang/TAbstractStringBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated/wasm/teavm/src/org/teavm/classlib/java/lang/TCharacter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated/wasm/teavm/src/org/teavm/classlib/java/lang/TMath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated/wasm/teavm/src/org/teavm/classlib/java/lang/TRuntimeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated/wasm/teavm/src/org/teavm/classlib/java/lang/TString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated/wasm/teavm/src/org/teavm/classlib/java/lang/TStringBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated/wasm/teavm/src/org/teavm/classlib/java/lang/TStringIndexOutOfBoundsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated/wasm/teavm/src/org/teavm/classlib/java/lang/TThrowable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated/wasm/teavm/src/org/teavm/classlib/java/util/TArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated/wasm/teavm/src/org/teavm/classlib/java/util/TObjects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated/wasm/teavm/src/org/teavm/jso/core/JSString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated/wasm/teavm/src/org/teavm/jso/dom/html/HTMLDocument.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated/wasm/teavm/src/org/teavm/jso/impl/JS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated/wasm/teavm/src/org/teavm/jso/impl/JSWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated/wasm/teavm/src/org/teavm/jso/impl/wasmgc/WasmGCExceptionWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated/wasm/teavm/src/org/teavm/jso/impl/wasmgc/WasmGCJSRuntime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ytp-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ytp-1.0-SNAPSHOT/WEB-INF/classes/com/tvmtest/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ytp-1.0-SNAPSHOT/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ytp-1.0-SNAPSHOT/teavm/classes.wasm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ytp-1.0-SNAPSHOT/teavm/classes.wasm-runtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ytp-1.0-SNAPSHOT/teavm/classes.wasm.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ytp-1.0-SNAPSHOT/teavm/classes.wasm.teadbg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ytp-1.0-SNAPSHOT/teavm/src/com/tvmtest/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ytp-1.0-SNAPSHOT/teavm/src/org/teavm/backend/wasm/runtime/gc/WasmGCSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ytp-1.0-SNAPSHOT/teavm/src/org/teavm/classlib/java/lang/TAbstractStringBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ytp-1.0-SNAPSHOT/teavm/src/org/teavm/classlib/java/lang/TCharacter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ytp-1.0-SNAPSHOT/teavm/src/org/teavm/classlib/java/lang/TMath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ytp-1.0-SNAPSHOT/teavm/src/org/teavm/classlib/java/lang/TRuntimeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ytp-1.0-SNAPSHOT/teavm/src/org/teavm/classlib/java/lang/TString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ytp-1.0-SNAPSHOT/teavm/src/org/teavm/classlib/java/lang/TStringBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ytp-1.0-SNAPSHOT/teavm/src/org/teavm/classlib/java/lang/TStringIndexOutOfBoundsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ytp-1.0-SNAPSHOT/teavm/src/org/teavm/classlib/java/lang/TThrowable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ytp-1.0-SNAPSHOT/teavm/src/org/teavm/classlib/java/util/TArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ytp-1.0-SNAPSHOT/teavm/src/org/teavm/classlib/java/util/TObjects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ytp-1.0-SNAPSHOT/teavm/src/org/teavm/jso/core/JSString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ytp-1.0-SNAPSHOT/teavm/src/org/teavm/jso/dom/html/HTMLDocument.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ytp-1.0-SNAPSHOT/teavm/src/org/teavm/jso/impl/JS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ytp-1.0-SNAPSHOT/teavm/src/org/teavm/jso/impl/JSWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ytp-1.0-SNAPSHOT/teavm/src/org/teavm/jso/impl/wasmgc/WasmGCExceptionWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ytp-1.0-SNAPSHOT/teavm/src/org/teavm/jso/impl/wasmgc/WasmGCJSRuntime.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="30bf8M3gpiiBtfJeA9zsv6iNJWn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Intern/Github/TeaVM/ytp/Second",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
+      <option name="appName" />
+      <option name="appServicePlanName" />
+      <option name="appServicePlanResourceGroup" />
+      <option name="appSettingsKey" value="f7ea8214-e91f-47ca-bc18-915d127b3ee5" />
+      <option name="artifact" />
+      <option name="debugOptions" />
+      <option name="deployment" />
+      <option name="deploymentStagingDirectoryPath" />
+      <option name="funcPath" />
+      <option name="functionHostArguments" />
+      <option name="hostJsonPath" />
+      <option name="insightsName" />
+      <option name="instrumentationKey" />
+      <option name="javaVersion" />
+      <option name="localSettingsJsonPath" />
+      <option name="moduleName" />
+      <option name="os" />
+      <option name="pricingTier" />
+      <option name="providerMap">
+        <map />
+      </option>
+      <option name="region" />
+      <option name="resourceGroup" />
+      <option name="stagingFolder" />
+      <option name="subscription" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c56d71df-1f0c-412c-937c-5965a00b688d" name="Changes" comment="" />
+      <created>1753901033547</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1753901033547</updated>
+    </task>
+    <servers />
+  </component>
+</project>
